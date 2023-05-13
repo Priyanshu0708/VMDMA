@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+.main-page{
+    background-image: url("images/main1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+.about-us{
+    background-image: url("images/about-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+height: 100%;
+    z-index: -100;
+}
+.join-us{
+    background-image: url("images/joinusbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+height: 100%;
+    z-index: -100;
+}
+.services{
+    background-image: url("images/services\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+height: 100%;
+    z-index: -100;
+}
+nav{
+    box-shadow: none !important;
+}
+.logo{
+    width: 70%;
+    margin-top: 0.8rem;
+    margin-left: -10rem;
+}
+.navbar-ul{
+    margin-right: -11rem;
+}
+.main-page nav ul li a,.services nav ul li a{
+    color: black;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight:600;
+    font-size: 2rem;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.about-us nav ul li a,.join-us nav ul li a{
+    color: #fff;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight:600;
+    font-size: 2rem;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+nav ul li a:hover{
+    color: rgb(27, 178, 238) !important;
+    background-color: transparent !important;
+}
+.bounce-up {
+    opacity: 0;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(0px, 200px, 0px);
+    -webkit-transform: translate3d(0px, 200px, 0px);
+    -o-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    transform: translate3d(0px, 200, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .bounce-up.in-view{
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+  }
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(15, end) forwards, blinking 3s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+  
+  @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: black}
+    100% {border-color: transparent}
+  }
+  footer i{
+    margin-right: 5px;
+}
+  .footer-links i{
+    font-size: 1.2rem;
+}
+.main-page-information{
+   margin-top: -1rem;
+    margin-right: 2rem; 
+}
+.top-info{
+font-family: 'Barlow';
+font-style: italic;
+font-weight: 1000 !important;
+font-size: 1.5rem;
+line-height: 33px;
+text-align: right;
+text-transform: uppercase;
+color: #E15641;
+text-shadow: 1.1px 0px #E15641;
+}
+.main-page-middle-information{
+    margin-left: 1.5rem;
+margin-top: -1rem;
+}
+.middle-info{
+    font-family: 'Barlow';
+font-style: italic;
+font-weight: 900 !important;
+font-size: 1.3rem;
+line-height: 26px;
+text-transform: uppercase;
+color: #E15641;
+text-align: left;
+text-shadow: 0.9px 0px #E15641;
+}
+.middle-info-2{
+    text-shadow: 0.5px 0px #E15641 !important; 
+}
+.schedule-call{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9.5rem;
+}
+.button{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 2.2rem;
+line-height: 30px;
+text-align: center;
+color: #fff;
+background-color: #FF7572;
+border: 1px solid #B3B3B3;
+border-radius: 20px;
+padding: 10px;
+}
+.button:hover {
+    background-color: #E6494F;
+    border-color: #E6494F;
+    color: #fff;
+}
+.schedule-call p{
+    font-family: 'Barlow';
+font-style: italic;
+font-weight: 900;
+font-size: 1.4rem;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+color: #FF5755;
+margin-top: 2rem;
+text-shadow: 0.7px 0px #E15641;
+}
+.schedule-call i{
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+.about-us-connect{
+    width: 100%;
+    position: absolute;
+    bottom: 1.5rem;
+    text-align: center;
+}
+.join-us-connect{
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+}
+.join-us-connect h1{
+    text-align: center;
+    font-family: 'Barlow';
+font-style: italic;
+font-weight: 900;
+font-size: 10rem;
+text-align: center;
+line-height: 43px;
+color: #FFFFFF;
+text-shadow: 5px 0 20px #2b46e2;
+letter-spacing:1px;
+    font-weight:bold;
+}
+.about-us-connect h1{
+    font-family: 'Barlow';
+font-style: italic;
+font-weight: 900;
+font-size: 10.5rem;
+text-align: center;
+line-height: 43px;
+color: #FFFFFF;
+text-shadow: 8px 10px 74px #1778F2;
+}
+.about-us-info p{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 30px;
+text-align: center;
+color: rgba(0, 0, 0, 0.87);
+}
+.about-us-info h1{
+    font-family: 'Barlow';
+font-style: italic;
+font-weight: 700;
+font-size: 3.5rem;
+line-height: 27px;
+text-align: center;
+color: #0000FF;
+text-shadow: 12px 4px 20px rgba(23, 120, 242, 0.5);
+}
+
+.about-us1,.about-us2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+.about-us1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/about-us1.png");
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-8deg);
+    opacity: 35%;
+    z-index: -1;
+}
+.about-us2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/about-us2.png");
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 35%;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+#mobile-menu li a{
+    color: #fff !important;
+}
+#mobile-menu li a:hover{
+    color: rgb(27, 178, 238) !important;
+}
+.toggle{
+    color: blue ;
+    float: right !important;
+}
+.services-connect{
+    width: 100%;
+    text-align: center;
+}
+.services-connect h1{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #000000;
+    font-family: Barlow;
+    font-size: 6rem;
+    font-style: italic;
+    text-shadow: 3px 0 #000000;
+    letter-spacing:1px;
+    font-weight:bold; 
+}
+.services-button{
+    background-color: blue !important;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.services-button i{
+    color: #fff !important;
+}
+.services-form i{
+    color: blue;
+    }
+    .materialize-textarea{
+        height: 70px !important;
+    }
+    .services-button:hover{
+        background-color: white !important;
+        color: blue !important;
+    }
+    .services-button:hover i{
+        background-color: white !important;
+        color: blue !important;
+        transition: ease-in-out;
+    }
+
+    .blocktext{
+        color: #2b46e2;
+        text-shadow: 2px 0 #808edf !important;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 5px !important;
+        font-size: 2rem;
+    }
+    .parallax-container img{
+        height: 75%;
+        margin-top: 20px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .parallax-container{
+        height: 100%;
+    }
+    .form-line{
+        line-height: 2px;
+        border-top: 2px black solid;
+    }
+    .join-team{
+        color: #2b46e2;
+        text-shadow: 3px 3px 5px #808edf !important;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 5px !important;
+    }
+    .joinform img{
+        margin-top: -20px;
+        margin-bottom:-30px !important;
+    }
+    .after-form{
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 0.87);
+    }
+.join-us i{
+    color: white !important;
+}
+
+/** Media queries**/
+/** Index.html**/
+@media screen and (min-width:1100px) {
+    .join-us-connect{
+       left: 4.2rem;
+    }
+    .about-us-connect{
+        left: 1rem;
+     }.about-us-footer{
+        margin-top: -10rem;
+    }
+}
+@media screen and (max-width:1180px) {
+    .join-us-connect h1{
+        font-size: 8rem;
+    }.about-us-connect h1{
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width:982px) {
+    .logo{
+        width: 60%;
+        margin-left: -10rem !important;
+    }
+    .top-info{
+        font-size: 1.2rem;
+        margin-left: 10rem;
+        }
+        .middle-info{
+            font-size: 1rem;
+            margin-right: 10rem;
+        }
+        .call-img{
+            width: 60%;
+            margin-left: 22% !important;
+        }.services-connect h1{
+            font-size: 5rem;
+        }
+        .form{
+            width: 60%;
+            margin: auto !important;
+        }
+        .join-us-connect h1{
+            font-size: 7rem;
+        }
+        .about-us-connect h1{
+            font-size: 7rem;
+        }
+}
+@media screen and (max-width:840px) {
+    .join-us-connect h1{
+        font-size: 6rem;
+    }.about-us-connect h1{
+        font-size: 6rem;
+    }
+    .joinform h2{
+        margin-top: 30px !important;
+        font-size: 3rem;
+    }
+    .joinform img{
+        width: 70%;
+        margin-left: 15% !important;
+    }
+}
+@media screen and (max-width:810px) {
+    .about-us-info p{
+        font-size: 1.2rem;
+        }
+        .about-us-info h1{
+        font-size: 2.5rem;
+       
+        }.about-us1::before {
+            background-size: auto 40%;
+        }
+        .about-us2::before{
+            background-size: auto 50%;
+        
+        }
+}
+@media screen and (max-width:720px) {
+    .top-info{
+        font-size: 1rem;
+        }
+        .middle-info{
+            font-size: 0.9rem;
+        }
+        .button{
+            font-size: 1.7rem;
+        }
+        .schedule-call p{
+            font-size: 1.2rem;
+        }
+        .services-connect h1{
+            font-size: 4rem;
+        }.join-us-connect h1{
+            font-size: 5rem;
+        }.joinform h2{
+            font-size: 2.5rem;
+        }.about-us-connect h1{
+            font-size: 5rem;
+        }
+}
+@media screen and (max-width:630px) {
+    .services-connect h1{
+        font-size: 3rem;
+    }
+    .join-us-connect h1{
+        font-size: 4rem;
+    }.join-us-connect h1{
+        font-size: 4rem;
+    }.about-us-connect h1{
+        font-size: 4rem;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .logo{
+        width: 55%;
+        margin-left: -8rem !important;
+    }
+    .top-info{
+        margin-left: 20px;
+        margin-right: 30%;
+        text-align: left !important;  
+    }
+    .middle-info{
+width: 100%;
+    }
+    .blocktext{
+        font-size: 1.5rem;
+    }
+    .services-connect{
+        width: 100% !important;
+        position: absolute;
+        bottom: 7rem;
+        left: 2.5rem;
+        text-align: center;
+    }
+    .services-connect h1{
+        width: 100% !important;
+    text-align: center !important;
+    color: #FFFFFF;
+text-shadow: 5px 0 20px #2b46e2;
+    }
+    .parallax-container img{
+        height: 70%;
+    }
+    .schedule-call{
+        margin-top: 2rem !important;
+    }
+}
+@media screen and (max-width:450px) {
+    .logo{
+        width: 50%;
+        margin-left: -6rem !important;
+    }.button{
+        font-size: 1.5rem;
+    }
+    .schedule-call p{
+        font-size: 1rem;
+    }
+    .services-connect h1{
+        font-size: 2rem;
+    }.form{
+        width: 95%;
+        margin: auto !important;
+    }.join-us-connect h1{
+        font-size: 3.3rem;
+    }.about-us-connect h1{
+        font-size: 3.3rem;
+    }
+    .about-us-connect{
+        bottom: 0 !important;
+        padding: 0;
+    }
+}
+@media screen and (max-width:360px) {
+    .logo{
+        margin-left: -5rem !important;
+    }.button{
+        font-size: 1.2rem;
+    }
+    .schedule-call p{
+        font-size: 0.9rem;
+    }.schedule-call i{
+        font-size: 1.2rem;
+    }.form{
+        width: 100%;
+        margin: auto !important;
+    }
+    .form h5{
+        font-size: 1.4rem;
+    }
+    .join-us-connect h1{
+        font-size: 2.5rem;
+    }.joinform h2{
+        font-size: 2rem;
+    }.about-us-connect h1{
+        font-size: 2.5rem;
+    }
+}
